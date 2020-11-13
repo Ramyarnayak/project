@@ -1,0 +1,74 @@
+
+.logout-btn-div{
+    background-color: #060b26;
+    height:  80px;
+    width:80px;
+    float:right;
+    position: relative;
+    top:-80px;
+    display: flex;
+      
+    align-items: center;
+
+
+  }
+  
+.logout-btn{
+ 
+    border-radius: 3px;
+    border: 1px solid black;
+    font-weight: bold;
+    height:35px;
+    width:70px;
+
+}
+.login-btn {
+  display: inline-block;
+  margin:200px 500px 200px 500px;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:lightslategrey;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

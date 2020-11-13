@@ -1,0 +1,206 @@
+/* .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .friend-list{
+      border: none;
+      width: 200px;
+      display: flex;
+      margin:20px;
+  }
+  .friend-name{
+    border: 0;
+    line-height: 2.5;
+    padding-right: 20px;
+    font-size: 23px;
+    text-align: center;
+    color: black;
+    text-decoration: bold;
+  }
+  .add {
+      margin-top: 10px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 30px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    width:100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(70,130,180, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.add:hover {
+    background-color: rgba(70,130,180, 1);
+}
+
+.add:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+   */
+
+   .App {
+    text-align: center;
+  }
+  
+  nav{
+    position: relative;
+    top:0px;
+    left:120px;
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 10vh;
+    
+    background:#060b26;
+  }
+  .nav-links{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight:400;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    
+    
+  }
+  .friend, .myfriend{
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    display: flex;
+    text-transform:capitalize;
+    text-indent: 0.5rem;
+    margin-left: 50px;
+    padding-left:0px ;
+    
+  
+  }
+  
+
+
+ 
+
+  
+  .ulll{
+    list-style:none;
+    display: row;
+  }
+
+
+  .add, .your{
+    border: 0;
+    line-height: 2.5;
+    padding-right: 20px;
+    font-size: 23px;
+    text-align: center;
+    color: black;
+    margin-left: 10px;
+    text-decoration: bold;
+  }
+  
+  .addbutton {
+      margin-top: 10px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 30px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    width:100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(70,130,180, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.addbutton:hover {
+    background-color: rgba(70,130,180, 1);
+}
+
+.addbutton:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.removebutton{
+
+    margin-top: 10px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 30px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  width:130px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(211, 68, 68);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.removebutton:hover {
+  background-color: rgba(70,130,180, 1);
+}
+
+.removebutton:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
